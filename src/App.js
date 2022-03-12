@@ -1,8 +1,13 @@
+import { AppWrapper, Title } from './styles';
+import { bookDetails } from './constants/bookDetails'; 
+
 const App = () => {
   return (
-    <div>
-      THIS IS MY REACT APP
-    </div>
+    <AppWrapper>
+      <Title>
+        {bookDetails.title}
+      </Title>
+    </AppWrapper>
   );
 }
 
