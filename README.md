@@ -8,6 +8,8 @@
 - assumed the border represents the screen
 - assumed missing end bracket of the rows array was a typo
 - chose not to use state for the JSON object because currently we are only displaying the values, not updating
+- assumed desktop view for matching wireframe
+- could be improved with Typescript
 
 ## Set Project Up Locally
 - git clone https://github.com/croberembt/book-data-wireframe.git
