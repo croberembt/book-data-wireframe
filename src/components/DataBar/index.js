@@ -1,12 +1,12 @@
-import { DataBarWrapper, DataBarContainer, DataBarFill } from "./styles";
+import { DataBarContainer, DataBarFill } from "./styles";
 
-const DataBar = () => {
+const DataBar = ({
+  fillPercent
+}) => {
   return (
-    <DataBarWrapper>
-      <DataBarContainer>
-        <DataBarFill />
-      </DataBarContainer>
-    </DataBarWrapper>
+    <DataBarContainer>
+      <DataBarFill fillPercent={fillPercent}/>
+    </DataBarContainer>
   )
 }
 

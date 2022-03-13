@@ -2,10 +2,11 @@ import { DataColumnHiddenTitle, DataColumnTitle } from "./styles";
 
 const DataColumn = ({
   header,
-  children
+  children,
+  style
 }) => {
   return (
-    <div>
+    <div style={style}>
       {
         header ?
         <DataColumnTitle>

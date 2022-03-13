@@ -1,18 +1,15 @@
 import styled from 'styled-components';
 
-export const DataBarWrapper = styled.div`
-
-`; 
-
 export const DataBarContainer = styled.div`
   width: 100%;
   height: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 `; 
 
 export const DataBarFill = styled.div`
   background-color: #9900ff;
-  width: 30%;
+  width: ${props => props.fillPercent ? props.fillPercent : "30%"};
   height: 100%;
-`
+  border: .2rem solid black;
+`;
 

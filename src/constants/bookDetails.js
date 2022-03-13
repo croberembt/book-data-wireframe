@@ -3,9 +3,21 @@ export const bookDetails = {
   rowLabel: "Genres",
   numLabel: "Number of Books",
   rows: [
-    { label: "Fantasy", count: 15 },
-    { label: "Non-Fiction", count: 5 },
-    { label: "Sci-Fi", count: 10 },
-    { label: "History", count: 22 }
+    { 
+      label: "Fantasy", 
+      count: 15 
+    },
+    { 
+      label: "Non-Fiction", 
+      count: 5 
+    },
+    { 
+      label: "Sci-Fi", 
+      count: 10 
+    },
+    { 
+      label: "History", 
+      count: 22 
+    }
   ]
 }

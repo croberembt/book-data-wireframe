@@ -14,11 +14,15 @@ export const Title = styled.h1`
 `; 
 
 export const DataWrapper = styled.div`
+  white-space: nowrap;
   display: flex;
   justify-content: space-between;
-  padding-right: 3.5rem;
-  div:first-child {
+  > div:first-child {
     padding-left: 3.5rem;
+    padding-right: 3rem;
+  }
+  > div:last-child {
+    padding-right: 3.5rem;
   }
   overflow-x: auto;
 `;
